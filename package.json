@@ -8,7 +8,9 @@
     "coverage": "node run test --coverage=true",
     "integ": "node run test --integ=true",
     "cover": "node run coverage",
-    "cfn-lint": "node run cfn-lint"
+    "cfn-lint": "node run cfn-lint",
+    "predeploy": "./package-app.sh",
+    "deploy": "./deploy-app.sh"
   },
   "license": "Apache-2.0",
   "devDependencies": {
